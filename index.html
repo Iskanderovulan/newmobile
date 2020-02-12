@@ -8,9 +8,14 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap"
           rel="stylesheet">
+
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/burger.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+
 
 
 </head>
@@ -19,12 +24,15 @@
     <div class="container d-flex justify-content-between align-items-center">
         <a href="" class="logo">mobile apps</a>
         <nav class="nav">
-            <a href="#" class="nav__item">Главная</a>
-            <a href="#" class="nav__item">Наши проекты</a>
-            <a href="#" class="nav__item">Услуги</a>
-            <a href="#" class="nav__item">Новости</a>
-            <a href="#" class="nav__item">Контакты</a>
+            <a href="#hero" class="nav__item">Главная</a>
+            <a href="#all-projects" class="nav__item">Наши проекты</a>
+            <a href="#services" class="nav__item">Услуги</a>
+            <a href="#all-services" class="nav__item">Новости</a>
+            <a href="#footer" class="nav__item">Контакты</a>
         </nav>
+        <div class="mobile-btn">
+            <span></span>
+        </div>
     </div>
 
 </header>
@@ -122,7 +130,7 @@
 <section id="about-us">
     <div class="container">
         <div class="row ">
-            <div class="col-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                 <h2 class="about-title ">Высокие стандарты разработки</h2>
                 <p class="about-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                     Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной "рыбой"
@@ -130,36 +138,37 @@
                 <a href="" class="about-link">Подробнее о компании</a>
             </div>
 
-            <div class="col-6 col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-6 col-md-12 col-sm-12 about-us-media">
                 <img src="./images/1.png" alt="" class="about-img">
             </div>
+        </div>
             <div class="icon-wrap">
-                <div class="row justify-content-center">
-                    <div class="col-2 col-lg-2 col-md-6 col-sm-12 offset-lg-1">
+                <div class="row ">
+                    <div class=" col-lg-2 col-md-4  col-sm-12 offset-lg-1 icon-for-media">
                         <img src="./images/2.png" alt="" class="about-icon">
                         <span class="about-number">125</span>
                         <p class="about-icon-text">Our projects</p>
                     </div>
-                    <div class="col-2 col-lg-2 col-md-6  col-sm-12">
+                    <div class=" col-lg-2 col-md-4   col-sm-12 icon-for-media">
                         <img src="./images/2.png" alt="" class="about-icon">
                         <span class="about-number">125</span>
                         <p class="about-icon-text">Our projects</p>
                     </div>
-                    <div class="col-2 col-lg-2 col-md-6 col-sm-12  ">
+                    <div class=" col-lg-2 col-md-4  col-sm-12 icon-for-media ">
                         <img src="./images/2.png" alt="" class="about-icon">
                         <span class="about-number">125</span>
                         <p class="about-icon-text">Our projects</p>
                     </div>
-                    <div class="col-2 col-lg-2 col-md-6 col-sm-12 ">
+                    <div class=" col-lg-2 col-md-4 col-sm-12 icon-for-media ">
                         <img src="./images/2.png" alt="" class="about-icon">
                         <span class="about-number">125</span>
                         <p class="about-icon-text">Our projects</p>
                     </div>
-                    <div class="col-2 col-lg-2  col-md-6 col-sm-12 ">
+                    <div class=" col-lg-2  col-md-4 col-sm-12 icon-for-media ">
                         <img src="./images/2.png" alt="" class="about-icon">
                         <span class="about-number">125</span>
                         <p class="about-icon-text">Our projects</p>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -177,7 +186,7 @@
         </div>
         <div class="line-border">
             <div class="row">
-                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
+                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12 all-services-media ">
                     <img src="./images/3div.png" alt="" class="all-services-img">
                     <h3 class="all-services-name"><span>01.</span> Исследование и упаковка</h3>
                     <p class="all-services-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -185,7 +194,7 @@
                         Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <a href="" class="all-services-link">Подробнее</a>
                 </div>
-                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12 all-services-media">
                     <img src="./images/3div.png" alt="" class="all-services-img">
                     <h3 class="all-services-name"><span>01.</span> Исследование и упаковка</h3>
                     <p class="all-services-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -193,7 +202,7 @@
                         Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <a href="" class="all-services-link">Подробнее</a>
                 </div>
-                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                <div class="col-4 col-lg-4 col-md-6 col-sm-6 col-12 all-services-media">
                     <img src="./images/3div.png" alt="" class="all-services-img">
                     <h3 class="all-services-name"><span>01.</span> Исследование и упаковка</h3>
                     <p class="all-services-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -214,16 +223,16 @@
             является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
 
         <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 all-project-for-media">
                 <img src="./images/allproject.png" alt="" class="all-project-img">
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 all-project-for-media">
                 <img src="./images/allproject.png" alt="" class="all-project-img">
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 all-project-for-media">
                 <img src="./images/allproject.png" alt="" class="all-project-img">
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 all-project-for-media">
                 <img src="./images/allproject.png" alt="" class="all-project-img">
             </div>
 
@@ -249,7 +258,7 @@
 <section id="subscribe">
     <h2 class="section-title text-dark mb-3">Подпишитесь на нашу рассылку</h2>
     <p class="section-text subscribe-text ">Полезные статьи, акции, новости - получите все это сейчас!</p>
-    <div class="wrapper d-flex justify-content-center align-items-center flex-row">
+    <div class="subscribe-wrapper d-flex justify-content-center align-items-center flex-row">
         <input class="subscribe-input" placeholder="Ваш e-mail"/>
         <button class="subscribe-button">Подписаться</button>
     </div>
@@ -259,7 +268,7 @@
 <section id="footer">
     <div class="container">
         <div class="row m-auto">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-for-media">
                 <h3 class="footer-title">Контактная информация</h3>
                 <ul class="footer-list d-flex flex-column">
                     <li class="footer-object item-send"><a href="" class="footer-item ">test@test.ru</a></li>
@@ -268,7 +277,7 @@
                         33</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-for-media">
                 <h3 class="footer-title">Основные ссылки</h3>
                 <ul class="footer-list-2 d-flex flex-column">
                     <li class="footer-object item-arrow"><a href="" class="footer-item ">Главная</a></li>
@@ -277,7 +286,7 @@
                     <li class="footer-object item-arrow"><a href="" class="footer-item ">Контакты</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-for-media">
                 <h3 class="footer-title">Наши проекты</h3>
                 <ul class="footer-list-2 d-flex flex-column">
                     <li class="footer-object item-arrow"><a href="" class="footer-item ">РосНано</a></li>
@@ -286,7 +295,7 @@
                     <li class="footer-object item-arrow"><a href="" class="footer-item ">ТЭЦ Калининграда</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 footer-for-media">
                 <h3 class="footer-title">Социальные сети</h3>
                 <ul class="footer-list-2 d-flex flex-column">
                     <li class="footer-object item-arrow"><a href="" class="footer-item ">VK.com</a></li>
@@ -299,8 +308,11 @@
     </div>
     <div class="all-rights d-flex justify-content-center align-items-center">(с) 2019. Все права защищены. </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/script.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>-->
 
 </body>
 </html>
